@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: aqua;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+
+
+
+}
+
+.name-designation {
+    float: left;
+    padding: 35px;
+}
+
+.contact {
+    float: right;
+    padding: 35px;
+
+
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: tomato;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border: solid black 2px;
+    width: 100%;
+
+
+}
+
+.content {}
+
+
+.leftside {
+    width: 30%;
+    float: left;
+
+}
+
+.rightside {
+    width: 70%;
+    float: right;
+    font-size: 18px;
+}
+
+.common-hr {
+    border: solid black 1px;
+    border-bottom: none;
+    margin: 20px auto;
+
+
+}
+
+.right-leftside {
+    width: 50%;
+    float: left;
+}
+
+.right-rightside {
+    width: 50%;
+    float: left;
+}
+
+.skills {
+    font-size: 30px;
+}
+
+.bottom-container {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.bottom-container p {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
