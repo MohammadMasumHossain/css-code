@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu {
+    background-color: pink;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.navigation-menu a:hover {
+
+    background-color: cadetblue;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    .navigation-menu {
+        flex-direction: column;
+    }
+
+    .navigation-menu a {
+        margin: 10px 0;
+        text-align: center;
+        background-color: indigo;
+        color: white;
+        border-radius: 10px;
+
+    }
+
+}
