@@ -1,0 +1,14 @@
+.trans {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: 200px;
+    transition: 3s;
+
+
+}
+
+.trans:hover {
+    transform: scale(2) rotate(270deg);
+}
